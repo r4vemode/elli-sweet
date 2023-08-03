@@ -318,7 +318,7 @@ const Home = () => {
                         <img className={'catalog-img'} src="/images/catalog-img1.jpg" alt=""/>
                         <div className="catalog__text-container">
                           <h2 className="catalog__title">Бенто-торт</h2>
-                          <p className="catalog__text">Мини-торт с искусным кремовым рисунком, отличный выбор для небольших торжеств</p>
+                          <p className="catalog__text">Мини-торт с кремовым рисунком для 2-3 гостей</p>
                           <div className="price-container">
                             <p className="catalog__price">1100₽/шт</p>
                             <a href="https://api.whatsapp.com/send/?phone=79933189710&text=Здравствуйте!+Меня+заинтересовал+Бенто-торт" target={'_blank'} className="catalog__btn" rel="noreferrer">Купить сейчас</a>
@@ -333,7 +333,7 @@ const Home = () => {
                         <img className={'catalog-img'} src="/images/catalog-img2.jpg" alt=""/>
                         <div className="catalog__text-container">
                           <h2 className="catalog__title">Торт Лев</h2>
-                          <p className="catalog__text">Уютный торт с харизматичным пряничным львенком и яркими леденцами из изомальта</p>
+                          <p className="catalog__text">Торт с пряничным львенком и леденцами из изомальта</p>
                           <div className="price-container">
                             <p className="catalog__price">4.200₽/шт</p>
                             <a href="https://api.whatsapp.com/send/?phone=79933189710&text=Здравствуйте!+Меня+заинтересовал+Торт+лев" target={'_blank'} className="catalog__btn" rel="noreferrer">Купить сейчас</a>
@@ -348,7 +348,7 @@ const Home = () => {
                         <img className={'catalog-img'} src="/images/catalog-img3.jpg" alt=""/>
                         <div className="catalog__text-container">
                           <h2 className="catalog__title">Свадебный торт</h2>
-                          <p className="catalog__text">Многоярусный торт с вафельными воланами, с невероятной конструкцией </p>
+                          <p className="catalog__text">Многоярусный торт с вафельными воланами, расписанный вручную кремом с невероятной конструкцией  </p>
                           <div className="price-container">
                             <p className="catalog__price">44.000₽/шт</p>
                             <a href="https://api.whatsapp.com/send/?phone=79933189710&text=Здравствуйте!+Меня+заинтересовал+Свадебный+торт" target={'_blank'} className="catalog__btn" rel="noreferrer">Купить сейчас</a>
@@ -363,7 +363,7 @@ const Home = () => {
                         <img className={'catalog-img'} src="/images/catalog-img4.jpg" alt=""/>
                         <div className="catalog__text-container">
                           <h2 className="catalog__title">Торт с зайкой</h2>
-                          <p className="catalog__text">Завораживающе вкусный и яркий детский торт, элегантно упакованный</p>
+                          <p className="catalog__text">Детский торт в праздничной упаковке</p>
                           <div className="price-container">
                             <p className="catalog__price">4.300₽/шт</p>
                             <a href="https://api.whatsapp.com/send/?phone=79933189710&text=Здравствуйте!+Меня+заинтересовал+Торт+с+зайкой" target={'_blank'} className="catalog__btn" rel="noreferrer">Купить сейчас</a>
@@ -378,7 +378,7 @@ const Home = () => {
                         <img className={'catalog-img'} src="/images/catalog-img5.jpg" alt=""/>
                         <div className="catalog__text-container">
                           <h2 className="catalog__title">Торт-бомба</h2>
-                          <p className="catalog__text">Торт для стремительного юного футболиста с неожиданным сюрпризом внутри</p>
+                          <p className="catalog__text">Торт для юного футболиста сюрпризом внутри</p>
                           <div className="price-container">
                             <p className="catalog__price">4.100₽/шт</p>
                             <a href="https://api.whatsapp.com/send/?phone=79933189710&text=Здравствуйте!+Меня+заинтересовал+Торт-бомба" target={'_blank'} className="catalog__btn" rel="noreferrer">Купить сейчас</a>
@@ -409,7 +409,7 @@ const Home = () => {
                         <img className={'catalog-img'} src="/images/card-img.jpg" alt=""/>
                         <div className="catalog__text-container">
                           <h2 className="catalog__title">Начинка вишня-шоколад в разрезе</h2>
-                          <p className="catalog__text">Разрез одной из наших начинок с насыщенными шоколадными бисквитами, пряной вишней и сливочным кремом</p>
+                          <p className="catalog__text">Разрез одной из наших начинок с насыщенными шоколадными бисквитами, пряной вишней и сливочным кремом </p>
                           <div className="price-container">
                             <p className="catalog__price">1700₽/кг</p>
                             <a href="https://api.whatsapp.com/send/?phone=79933189710&text=Здравствуйте!+Меня+заинтересовала+Начинка+вишня-шоколад+в+разрезе" target={'_blank'} className="catalog__btn" rel="noreferrer">Купить сейчас</a>
@@ -424,7 +424,7 @@ const Home = () => {
                         <img className={'catalog-img'} src="/images/catalog-img9.jpg" alt=""/>
                         <div className="catalog__text-container">
                           <h2 className="catalog__title">Торт в стиле Гарри Поттера</h2>
-                          <p className="catalog__text">Торт со съедобными фигурками и акриловым топпером</p>
+                          <p className="catalog__text">Торт со съедобными фигурками ручной работы и акриловым топпером</p>
                           <div className="price-container">
                             <p className="catalog__price">4.800₽/шт</p>
                             <a href="https://api.whatsapp.com/send/?phone=79933189710&text=Здравствуйте!+Меня+заинтересовал+Торт+в+стиле+Гарри+Поттера" target={'_blank'} className="catalog__btn" rel="noreferrer">Купить сейчас</a>
