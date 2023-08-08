@@ -25,9 +25,13 @@ img {
   object-position: center;
 }
 
+.catalog-img {
+  object-fit: cover;
+}
+
 .mail-class {
-  height: 20px;
-  width: 20px;
+  height: 15px;
+  width: 15px;
   vertical-align: middle;
   margin-right: 5px;
 }
@@ -406,7 +410,6 @@ header {
   height: 251px;
   border-radius: 10px;
   transition: 0.2s;
-  object-fit: cover;
 }
 .catalog-img:hover {
   transform: scale(1.02);
@@ -791,6 +794,9 @@ input:focus {
     font-size: 17px;
     margin-bottom: 20px;
   }
+  .catalog__relative-list_mobile .card-inner {
+    padding: 24px 24px 0 24px;
+  }
   .catalog__relative-list_mobile .catalog__card {
     width: 100%;
   }
@@ -886,6 +892,19 @@ input:focus {
   }
 }
 @media (max-width: 768px) {
+  .catalog__relative-list_mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .catalog-item {
+    width: 50%;
+  }
+  .catalog__card {
+    padding: 15px;
+  }
+  .catalog__btn {
+    margin: auto;
+  }
   .logo {
     height: 45px;
   }
@@ -954,6 +973,9 @@ input:focus {
   .catalog__relative-list_mobile .price-container {
     flex-wrap: wrap;
   }
+  .catalog__relative-list_mobile .card-inner {
+    padding: 14px 24px 10px 24px;
+  }
   .catalog__relative-list_mobile .catalog__card {
     height: auto;
   }
@@ -973,6 +995,10 @@ input:focus {
   .benefits__card-text-container {
     width: 80%;
     margin-top: 0;
+  }
+  .catalog__relative-list_mobile {
+    display: flex;
+    flex-wrap: wrap;
   }
   .benefits2,
   .benefits1 {
@@ -1001,7 +1027,7 @@ input:focus {
     gap: 15px;
   }
   .form-container input {
-    padding: 30px 30px;
+    padding: 20px 30px;
   }
   .footer__form-text-container {
     padding: 20px;
@@ -1067,6 +1093,48 @@ input:focus {
   }
   .benefits__card-title {
     font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .catalog__relative-list_mobile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .catalog-item {
+    width: 50%;
+  }
+  .catalog__card {
+    padding: 15px;
+  }
+  .catalog__btn {
+    margin: auto;
+  }
+}
+@media (max-width: 600px) {
+  .catalog-img {
+    height: auto;
+  }
+  .cakes__list {
+    justify-content: center;
+  }
+  .cakes__item {
+    width: 50%;
+  }
+  .cakes-img {
+    height: 100%;
+  }
+  .catalog__card {
+    height: 100%;
+  }
+  .catalog__title {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .catalog__relative-list_mobile .catalog__text {
+    font-size: 9px;
+  }
+  .catalog__btn {
+    padding: 5px 7px;
   }
 }
 
