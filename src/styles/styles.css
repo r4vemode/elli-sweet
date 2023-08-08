@@ -156,6 +156,10 @@ header {
   align-items: center;
 }
 
+.hero-s {
+  padding: 120px 0 0;
+}
+
 .hero__btn {
   padding: 20px 50px;
   background-color: #F1F1F1;
@@ -716,6 +720,9 @@ input:focus {
 }
 
 @media (max-width: 1200px) {
+  .hero-s {
+    padding: 0;
+  }
   .hero__all-container {
     align-items: flex-start;
   }
@@ -767,6 +774,9 @@ input:focus {
 @media (max-width: 992px) {
   .header {
     padding-bottom: 0;
+  }
+  .header .hero-s {
+    padding: 0;
   }
   .header__nav-bar {
     flex-wrap: wrap;
@@ -896,6 +906,9 @@ input:focus {
     display: flex;
     flex-wrap: wrap;
   }
+  .hero-s {
+    padding: 0;
+  }
   .catalog-item {
     width: 50%;
   }
@@ -991,6 +1004,9 @@ input:focus {
 @media (max-width: 576px) {
   .header-nav__list {
     gap: 15px;
+  }
+  .hero-s {
+    padding: 0;
   }
   .benefits__card-text-container {
     width: 80%;
@@ -1100,6 +1116,9 @@ input:focus {
     display: flex;
     flex-wrap: wrap;
   }
+  .hero-s {
+    padding: 0;
+  }
   .catalog-item {
     width: 50% !important;
   }
@@ -1119,6 +1138,9 @@ input:focus {
     align-items: flex-start;
     flex-direction: column;
     gap: 4px;
+  }
+  .hero-s {
+    padding: 0;
   }
   .catalog__price {
     text-align: center;
